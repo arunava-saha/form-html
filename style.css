@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.apply-box {
+    max-width: 600px;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px;
+
+}
+
+.apply-box span {
+    font-size: 14px;
+}
+
+.form-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+}
+
+input,
+select,
+textarea {
+    padding: 6px 1opx;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input :focus {
+    outline-color: red;
+}
+
+.button1 {
+    display: flex;
+    margin-top: 29px;
+    justify-content: flex-start;
+    border: transparent 2px;
+}
+
+.button2 {
+    display: flex;
+    margin-top: 29px;
+    justify-content: flex-end;
+    border: transparent 2px;
+}
+
+#button1 {
+    font-size: 20px;
+    box-sizing: border-box 10px;
+    background-color: blue;
+}
+
+#button2 {
+    background-color: red;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: transparent solid 2px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.5s ease-in;
+}
+
+button:hover {
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    border: 2px solid red;
+    color: #000;
+}

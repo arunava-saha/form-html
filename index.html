@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply-box">
+            <h2>Job Application<span>&nbsp;(WebForm)</span> </h2>
+            <form action="">
+                <div class="form-container">
+                    <div class="names">
+                        <label for="namefirst">First Name:</label>
+                        <input type="text" name="namefirst" id="namefirst" placeholder="Enter First Name...">
+                    </div>
+                    <div class="names">
+                        <label for="namemiddle">Middle Name:</label>
+                        <input type="text" name="namemiddle" id="namemiddle" placeholder="Enter Middle Name...">
+                    </div>
+                    <div class="names">
+                        <label for="namelast">Last Name:</label>
+                        <input type="text" name="namelastt" id="namelast" placeholder="Enter Last Name...">
+                    </div>
+                    <div class="names">
+                        <label for="nameemail">Email:</label>
+                        <input type="email" name="nameemail" id="nameemail" placeholder="Enter Email...">
+                    </div>
+                    <div class="names">
+                        <label for="namejob">Job Role:</label>
+                        <select name="namejob" id="namejob">
+                            <option value="">Select Job Roles</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="fullstack">Full Stack Developer</option>
+                            <option value="uiux">UI UX Developer</option>
+                        </select>
+                    </div>
+                    <div class="names">
+                        <label for="nameaddress">Address:</label>
+                        <Textarea name="nameaddress" id="nameaddress" placeholder="Enter Address"></Textarea>
+                    </div>
+                    <div class="names">
+                        <label for="namepincode">Pincode:</label>
+                        <input type="number" name="namepincode" id="namepincode" placeholder="Enter Pincode...">
+                    </div>
+                    <div class="names">
+                        <label for="namecity">City:</label>
+                        <input type="text" name="namecity" id="namecity" placeholder="Enter City...">
+                    </div>
+                    <div class="names">
+                        <label for="date">Date:</label>
+                        <input value="2022-01-01" type="date" name="date" id="date">
+                    </div>
+                    <div class="names">
+                        <label for="date">Upload Your CV:</label>
+                        <input type="file" name="Upload" id="Upload">
+                    </div>
+
+
+
+                </div>
+                <div class="button1">
+                    <button id="button2" type="reset">Reset Now</button>
+                </div>
+                <div class="button2">
+                    <button id="button1" type="submit">Apply Now</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
